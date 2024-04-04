@@ -1,0 +1,32 @@
+Bienvenido al programa principal de ArteProg. Por favor ingrese su comando:
+1> Coleccion de piezas creada de forma exitosa.
+2> 3> Coleccion liberada con exito.
+4> Coleccion de piezas creada de forma exitosa.
+5> Fecha creada en forma exitosa.
+6> Pieza creada en forma exitosa.
+7> Pieza agregada de forma exitosa.
+8> 9> Coleccion liberada con exito.
+10> Coleccion de piezas creada de forma exitosa.
+11> Fecha creada en forma exitosa.
+12> Pieza creada en forma exitosa.
+13> Pieza agregada de forma exitosa.
+14> Fecha creada en forma exitosa.
+15> Pieza creada en forma exitosa.
+16> Pieza agregada de forma exitosa.
+17> Fecha creada en forma exitosa.
+18> Pieza creada en forma exitosa.
+19> Pieza agregada de forma exitosa.
+20> Fecha creada en forma exitosa.
+21> Pieza creada en forma exitosa.
+22> Pieza agregada de forma exitosa.
+23> Fecha creada en forma exitosa.
+24> Pieza creada en forma exitosa.
+25> Pieza agregada de forma exitosa.
+26> 27> Coleccion liberada con exito.
+28> Fin.
+==898071== 2,040 (32 direct, 2,008 indirect) bytes in 2 blocks are definitely lost in loss record 4 of 4
+==898071==    at 0x4842F95: operator new(unsigned long) (vg_replace_malloc.c:483)
+==898071==    by 0x402D33: insertarPiezaColeccionPiezas(rep_coleccionpiezas*&, rep_pieza*) (coleccionPiezas.cpp:16)
+==898071==    by 0x402189: main_agregarColeccionPiezas(rep_coleccionpiezas*&, rep_pieza*&) (principal.cpp:426)
+==898071==    by 0x401595: main (principal.cpp:193)
+==898071== 

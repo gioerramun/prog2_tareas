@@ -1,0 +1,33 @@
+8,11c8
+< 8> Pieza: 7
+< LaxaAristaTriste-Carlos Nelson
+< Creada en: 1/1/2001
+< 9> Coleccion liberada con exito.
+---
+> 8> 9> Coleccion liberada con exito.
+28,43c25
+< 26> Pieza: 2
+< AltaAristaTriste-Luciana Diaz
+< Creada en: 1/1/2001
+< Pieza: 6
+< MalditaMangostaFunebre-Luciana Diaz
+< Creada en: 1/1/2001
+< Pieza: 7
+< SacraBarcaTriste-Carlos Nelson
+< Creada en: 1/1/2001
+< Pieza: 10
+< RaraEspadaDesquiciada-Luciana Diaz
+< Creada en: 1/1/2001
+< Pieza: 16
+< RaraRecursionFurtiva-Luciana Diaz
+< Creada en: 1/1/2001
+< 27> Coleccion liberada con exito.
+---
+> 26> 27> Coleccion liberada con exito.
+44a27,32
+> ==898071== 2,040 (32 direct, 2,008 indirect) bytes in 2 blocks are definitely lost in loss record 4 of 4
+> ==898071==    at 0x4842F95: operator new(unsigned long) (vg_replace_malloc.c:483)
+> ==898071==    by 0x402D33: insertarPiezaColeccionPiezas(rep_coleccionpiezas*&, rep_pieza*) (coleccionPiezas.cpp:16)
+> ==898071==    by 0x402189: main_agregarColeccionPiezas(rep_coleccionpiezas*&, rep_pieza*&) (principal.cpp:426)
+> ==898071==    by 0x401595: main (principal.cpp:193)
+> ==898071== 
