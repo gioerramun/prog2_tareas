@@ -1,35 +1,44 @@
-==1451053== Invalid read of size 8
-==1451053==    at 0x402E42: imprimirColeccionPiezas(rep_coleccionpiezas*) (coleccionPiezas.cpp:46)
-==1451053==    by 0x4021B9: main_imprimirColeccionPiezas(rep_coleccionpiezas*) (principal.cpp:432)
-==1451053==    by 0x4015BE: main (principal.cpp:195)
-==1451053==  Address 0x4dd2320 is 0 bytes inside a block of size 16 free'd
-==1451053==    at 0x48468E5: operator delete(void*, unsigned long) (vg_replace_malloc.c:1101)
-==1451053==    by 0x402E18: insertarPiezaColeccionPiezas(rep_coleccionpiezas*&, rep_pieza*) (coleccionPiezas.cpp:38)
-==1451053==    by 0x402189: main_agregarColeccionPiezas(rep_coleccionpiezas*&, rep_pieza*&) (principal.cpp:426)
-==1451053==    by 0x401595: main (principal.cpp:193)
-==1451053==  Block was alloc'd at
-==1451053==    at 0x4842F95: operator new(unsigned long) (vg_replace_malloc.c:483)
-==1451053==    by 0x402D0B: insertarPiezaColeccionPiezas(rep_coleccionpiezas*&, rep_pieza*) (coleccionPiezas.cpp:13)
-==1451053==    by 0x402189: main_agregarColeccionPiezas(rep_coleccionpiezas*&, rep_pieza*&) (principal.cpp:426)
-==1451053==    by 0x401595: main (principal.cpp:193)
-==1451053== 
-==1451053== Invalid read of size 4
-==1451053==    at 0x402C39: imprimirTPieza(rep_pieza*) (pieza.cpp:27)
-==1451053==    by 0x402E4C: imprimirColeccionPiezas(rep_coleccionpiezas*) (coleccionPiezas.cpp:46)
-==1451053==    by 0x4021B9: main_imprimirColeccionPiezas(rep_coleccionpiezas*) (principal.cpp:432)
-==1451053==    by 0x4015BE: main (principal.cpp:195)
-==1451053==  Address 0x0 is not stack'd, malloc'd or (recently) free'd
-==1451053== 
-==1451053== 
-==1451053== Process terminating with default action of signal 11 (SIGSEGV): dumping core
-==1451053==  Access not within mapped region at address 0x0
-==1451053==    at 0x402C39: imprimirTPieza(rep_pieza*) (pieza.cpp:27)
-==1451053==    by 0x402E4C: imprimirColeccionPiezas(rep_coleccionpiezas*) (coleccionPiezas.cpp:46)
-==1451053==    by 0x4021B9: main_imprimirColeccionPiezas(rep_coleccionpiezas*) (principal.cpp:432)
-==1451053==    by 0x4015BE: main (principal.cpp:195)
-==1451053==  If you believe this happened as a result of a stack
-==1451053==  overflow in your program's main thread (unlikely but
-==1451053==  possible), you can try to increase the size of the
-==1451053==  main thread stack using the --main-stacksize= flag.
-==1451053==  The main thread stack size used in this run was 8388608.
-timeout: la orden monitorizada ha volcado un 'core'
+Bienvenido al programa principal de ArteProg. Por favor ingrese su comando:
+1> Coleccion de piezas creada de forma exitosa.
+2> 3> Coleccion liberada con exito.
+4> Coleccion de piezas creada de forma exitosa.
+5> Fecha creada en forma exitosa.
+6> Pieza creada en forma exitosa.
+7> Pieza agregada de forma exitosa.
+8> Pieza: 7
+LaxaAristaTriste-Carlos Nelson
+Creada en: 1/1/2001
+9> Coleccion liberada con exito.
+10> Coleccion de piezas creada de forma exitosa.
+11> Fecha creada en forma exitosa.
+12> Pieza creada en forma exitosa.
+13> Pieza agregada de forma exitosa.
+14> Fecha creada en forma exitosa.
+15> Pieza creada en forma exitosa.
+16> Pieza agregada de forma exitosa.
+17> Fecha creada en forma exitosa.
+18> Pieza creada en forma exitosa.
+19> Pieza agregada de forma exitosa.
+20> Fecha creada en forma exitosa.
+21> Pieza creada en forma exitosa.
+22> Pieza agregada de forma exitosa.
+23> Fecha creada en forma exitosa.
+24> Pieza creada en forma exitosa.
+25> Pieza agregada de forma exitosa.
+26> Pieza: 2
+AltaAristaTriste-Luciana Diaz
+Creada en: 1/1/2001
+Pieza: 6
+MalditaMangostaFunebre-Luciana Diaz
+Creada en: 1/1/2001
+Pieza: 7
+SacraBarcaTriste-Carlos Nelson
+Creada en: 1/1/2001
+Pieza: 10
+RaraEspadaDesquiciada-Luciana Diaz
+Creada en: 1/1/2001
+Pieza: 16
+RaraRecursionFurtiva-Luciana Diaz
+Creada en: 1/1/2001
+27> Coleccion liberada con exito.
+28> Fin.
