@@ -34,7 +34,6 @@ void liberarTPieza(TPieza &pieza){
     liberarTFecha(pieza->fecha);
     delete pieza;
     pieza = NULL;
-
 }
 
 
